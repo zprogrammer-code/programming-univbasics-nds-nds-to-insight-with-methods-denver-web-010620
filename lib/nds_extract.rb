@@ -21,7 +21,7 @@ def directors_totals(directors_database)
     end
     row_index += 1 
   end
-  #binding.pry 
+  binding.pry 
   return result
 end
  
@@ -43,6 +43,5 @@ def gross_for_director(director_data)
    
  row_index += 1 
 end
-binding.pry
  return coordinate_total
  end
