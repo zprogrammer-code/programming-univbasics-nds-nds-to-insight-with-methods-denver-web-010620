@@ -14,11 +14,11 @@ def directors_totals(directors_database)
     name = directors_database[row_index][:name]
     grand_total += gross_for_director(directors_database)
     
-    #if !result[name]
-    #  result[name] = grand_total
-   # else
-     # result[name] += grand_total
-    #end
+    if !result[name]
+      result[name] = grand_total
+    else
+      result[name] += grand_total
+    end
     row_index += 1 
   end
   #binding.pry 
