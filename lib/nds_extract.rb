@@ -42,7 +42,6 @@ def gross_for_director(director_data)
   
   coordinate_total += worldwide_gross
    
-end
  row_index += 1 
 end
 #binding.pry
