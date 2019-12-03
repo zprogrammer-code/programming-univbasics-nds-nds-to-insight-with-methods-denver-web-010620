@@ -32,7 +32,7 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-   binding.pry
+
    coordinate_total = 0 
    row_index = 0 
   inner_length = director_data[:movies].length
