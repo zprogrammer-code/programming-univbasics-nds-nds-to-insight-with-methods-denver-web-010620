@@ -45,5 +45,5 @@ while row_index < directors_database.length do
 end
  row_index += 1 
 end
- return coordinate_total
+ coordinate_total
  end
