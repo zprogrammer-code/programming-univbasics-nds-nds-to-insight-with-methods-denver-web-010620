@@ -14,7 +14,7 @@ def directors_totals(directors_database)
     name = directors_database[row_index][:name]
     result[name] = gross_for_director(directors_database)
     
-   # if !result[name]
+    #if !result[name]
     #  result[name] = grand_total
    # else
      # result[name] += grand_total
@@ -27,7 +27,7 @@ end
  
  
  
- pp directors_totals(directors_database)
+ #pp directors_totals(directors_database)
  # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 
