@@ -38,7 +38,7 @@ def gross_for_director(director_data)
   inner_length = director_data[:movies].length
  while row_index < inner_length do
   gross = director_data[:movies][row_index][:worldwide_gross]
-  
+  binding.pry
   coordinate_total += gross
    
  row_index += 1 
