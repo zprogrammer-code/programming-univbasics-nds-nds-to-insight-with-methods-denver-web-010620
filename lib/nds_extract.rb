@@ -21,6 +21,7 @@ def directors_totals(directors_database)
     end
     row_index += 1 
   end
+  binding.pry 
   return result
 end
  
