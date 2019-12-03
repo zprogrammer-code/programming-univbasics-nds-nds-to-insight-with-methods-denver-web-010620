@@ -46,6 +46,6 @@ while row_index < directors_database.length do
 end
  row_index += 1 
 end
-binding.pry
+#binding.pry
  coordinate_total
  end
