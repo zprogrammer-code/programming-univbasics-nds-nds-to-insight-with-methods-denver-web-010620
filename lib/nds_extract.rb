@@ -12,7 +12,7 @@ def directors_totals(directors_database)
   row_index = 0 
   while row_index < directors_database.length do
     name = directors_database[row_index][:name]
-    grand_total += gross_for_director(directors_database)
+    #grand_total += gross_for_director(directors_database)
     
     if !result[name]
       result[name] = grand_total
